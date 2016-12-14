@@ -1,0 +1,13 @@
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'NetworkDemo' do
+    pod 'Alamofire'
+    pod 'ObjectMapper'
+    pod 'SwiftyJSON'
+    pod 'AFNetworking'
+    pod 'SVProgressHUD'
+end
+
