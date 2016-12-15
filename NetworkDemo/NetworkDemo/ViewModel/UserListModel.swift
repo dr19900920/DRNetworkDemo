@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+
 struct UserListModel {
     var users: [UserModel]!
 }
@@ -24,7 +25,6 @@ extension UserListModel: Mappable {
     }
 }
 
-
 func ==(lhs: UserListModel, rhs: UserListModel) -> Bool {
     return lhs.hashValue == rhs.hashValue
 }
@@ -36,9 +36,9 @@ extension UserListModel: Hashable {
 }
 
 extension UserListModel: Parsable {
-
-    static func parse(json: [String: Any]) -> UserListModel? {
     
+    static func parse(json: [String: Any]) -> UserListModel? {
+        
         return Mapper<UserListModel>().map(JSON: json)
         
     }

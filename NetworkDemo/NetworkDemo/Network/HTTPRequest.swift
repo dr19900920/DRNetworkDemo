@@ -13,7 +13,7 @@ public protocol Request {
 
     var path: String { get }
     var method: HTTPMethod { get }
-    var parameters: [String: Any] { get }
+    var parameters: [String: Any] { get set }
     
     associatedtype Response: Parsable
 }

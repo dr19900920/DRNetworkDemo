@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import ObjectMapper
 
 struct UserListRequest: Request {
     
@@ -15,8 +16,10 @@ struct UserListRequest: Request {
         return "api/jing/"
     }
     let method: HTTPMethod = .get
-    let parameters: [String: Any] = ["p": "5","t": "1"]
+    var parameters: [String: Any] = [:]
     
     typealias Response = UserListModel
-
+    
 }
+
+

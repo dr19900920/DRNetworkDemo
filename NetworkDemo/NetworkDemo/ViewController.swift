@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let client = AlamofireClient()
-        let urlRequest = UserListRequest()
+        let urlRequest = UserListRequest(parameters: ["p": "5","t": "1"])
         client.send(urlRequest) {
             userlist, error in
             if error != nil {return}
