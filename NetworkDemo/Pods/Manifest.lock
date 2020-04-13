@@ -15,24 +15,32 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Alamofire (4.2.0)
-  - ObjectMapper (2.2.1)
-  - SVProgressHUD (2.0.4)
-  - SwiftyJSON (3.1.3)
+  - ObjectMapper (2.2.2)
+  - Realm (2.1.2):
+    - Realm/Headers (= 2.1.2)
+  - Realm/Headers (2.1.2)
+  - RealmSwift (2.1.2):
+    - Realm (= 2.1.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - AFNetworking
   - Alamofire
   - ObjectMapper
+  - RealmSwift
   - SVProgressHUD
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
-  ObjectMapper: 41e43e1a89f8060ef5ea5d04ba852e269a621d68
-  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
-  SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  Realm: efe855f4d977c8ce5a82d3116d9f1ff155a6550c
+  RealmSwift: 17d6ee30b6f9df86364408c2197492e33bfea567
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 24dc4e6b27be7d4394e958b80495a4a63c5882c3
+PODFILE CHECKSUM: 81cf73b775652fe3017808ce001324b7cda9452b
 
 COCOAPODS: 1.1.1

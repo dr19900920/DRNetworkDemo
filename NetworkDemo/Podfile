@@ -9,5 +9,6 @@ target 'NetworkDemo' do
     pod 'SwiftyJSON'
     pod 'AFNetworking'
     pod 'SVProgressHUD'
+    pod 'RealmSwift'
 end
 
